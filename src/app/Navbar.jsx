@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaEnvelope, FaShoppingCart } from 'react-icons/fa';
 
 export default function Navbar() {
   return (
@@ -14,6 +14,10 @@ export default function Navbar() {
         <Link href="/shop">Shop</Link>
         <Link href="/about">About</Link>
         <Link href="/search">Search</Link>
+        <Link href="/cart" className="flex items-center gap-1">
+          <FaShoppingCart />
+          Cart
+        </Link>
       </div>
 
       <div className="flex items-center gap-4">
