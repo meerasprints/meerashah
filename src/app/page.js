@@ -3,7 +3,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-pink-50 to-rose-100 text-center flex flex-col justify-center items-center px-4 relative overflow-hidden">
       <div className="absolute top-10 right-10 text-3xl animate-bounce">✨</div>
       <h1 className="text-5xl font-extrabold text-gray-900 drop-shadow-md mb-4">
-        Welcome to <span className="text-rose-500">Meera's Prints</span>
+        Welcome to <span className="text-rose-500">Meera&apos;s Prints</span>
       </h1>
       <p className="text-xl text-gray-600 max-w-xl mb-8">
         Sustainable tees. Student-led mission. Fashion with a purpose.

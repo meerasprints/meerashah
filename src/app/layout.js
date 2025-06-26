@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
       <body className="bg-white text-black font-sans">
         <header className="bg-gray-100 shadow-md sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 className="text-xl font-bold">Meera's Prints</h1>
+            <h1 className="text-xl font-bold">Meera&apos;s Prints</h1>
             <nav className="flex gap-6 text-sm font-medium">
               <Link href="/">Home</Link>
               <Link href="/fast-fashion">Fast Fashion</Link>
