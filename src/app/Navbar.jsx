@@ -17,13 +17,13 @@ export default function Navbar() {
       </div>
 
       <div className="flex items-center gap-4">
-        <a href="https://instagram.com/yourhandle" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/meerasprints/" target="_blank" rel="noreferrer">
           <FaInstagram />
         </a>
-        <a href="mailto:meeraprints@email.com">
+        <a href="mailto:meeras.printsbr@gmail.com">
           <FaEnvelope />
         </a>
-        <span className="text-sm">📞 (123) 456-7890</span>
+        <span className="text-sm">📞 (908) 531-1418</span>
       </div>
     </nav>
   );
